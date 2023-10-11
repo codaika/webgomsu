@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with= device-width, initial-scale=1.0">
+    <title>demo web doanh nghiep</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo bát tràng new.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Gốm sứ Bát Tràng</h1>
+    </section>
+    <section class="product">
+        <h1>Sản phẩm gốm sứ Bát Tràng bán chạy </h1>
+        <p>Gốm sứ Bát Tràng chính hãng</p>
+        <div class="row">
+            <div class="product-col">
+                <h3>Bộ ấm chén đài hoa sen vẽ tay</h3>
+                <p>499.000đ</p>
+
+            </div>
+            <div class="product-col">
+                <h3>Tranh Đông Hồ gốm sứ làm quà tặng</h3>
+                <p>285.000đ</p>
+
+            </div>
+            <div class="product-col">
+                <h3>Bình hút lộc-Mã Đáo Thành Công</h3>
+                <p>600.000đ</p>
+
+            </div>
+        </div>
+
+    </section>
+    </section>
+    <section class="facilities">
+        <h1>Các sản phẩm ưa thích</h1>
+        <p>Phân loại</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/battranggiadung.jpg">
+                <h3>Gốm sứ bình dân</h3>
+                <p>Gốm sứ đồ gia dụng</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/battrangdothocung.webp">
+                <h3>Gốm sứ trung cấp</h3>
+                <p>Gốm sứ thờ cúng</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/battrangnghethuat.jpg">
+                <h3>Gốm sứ cao cấp</h3>
+                <p>Gốm sứ cao cấp,nghệ thuật,trưng bày</p>
+            </div>
+        </div>
+
+
+    </section>
+<!----footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>gioi thieu ve doanh nghiep abcde</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <p> made with <i class="fa-regular fa-heart fa-fade"></i> by pv</p>
+</section>
+
+
+    <!-----menu mobile-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
